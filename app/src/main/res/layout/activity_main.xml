@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Button
+            android:text="TEST"
+            android:id="@+id/btnTest3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="5"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            app:srcCompat="@android:drawable/ic_media_ff"
+            tools:ignore="HardcodedText,MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/btnTest1"
+            android:text="Recycle View"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ccc"
+            android:layout_weight="5"/>
+
+        <Button
+            android:id="@+id/btnTest2"
+            android:text="List custom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#555"
+            android:layout_weight="5" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccc">
+
+        <ImageView
+            android:id="@+id/imgViewMain"
+            android:layout_width="500px"
+            android:layout_height="500px"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ru"/>
+    </RelativeLayout>
+</LinearLayout>
+
+
